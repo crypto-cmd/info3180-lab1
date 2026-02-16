@@ -4,9 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <title>My Website - About</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
 </head>
 
 <body>
+    <img src="{{ url_for('static', filename='img/webdev-image.png') }}" alt="Orville Daley" width="200" height="200">
     <h1>Orville Daley</h1>
     <p>I am passionate about Web Development because it combines creativity with technical problem-solving. I love how
         web technologies allow me to build interactive experiences that can reach people around the world. The

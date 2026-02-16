@@ -8,3 +8,13 @@ body {
   max-width: 960px;
   margin: 0 auto;
 }
+
+h1 {
+    font-size: 24px;
+    color: #38B2AC;
+}
+
+p {
+    font-size: 18px;
+    color: #5A67D8;
+}
