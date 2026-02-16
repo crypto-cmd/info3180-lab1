@@ -11,6 +11,11 @@ def home():
     """Render the home page."""
     return "My home page"
 
+@app.route('/about')
+def about():
+    """Render the about page."""
+    return render_template('about.html')
+    
 @app.errorhandler(404)
 def page_not_found(error):
     """Custom 404 page."""
